@@ -1,0 +1,16 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "/path/to/your/jdk-11",
+            "sourcesPath": "/path/to/your/jdk-11/src",
+            "javadocPath": "/path/to/your/jdk-11/docs/api",
+            "default": true
+        },
+        {
+            "name": "JavaFX",
+            "path": "/path/to/your/javafx-sdk-11/lib",
+            "isExported": true
+        }
+    ]
+}
